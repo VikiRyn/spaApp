@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { AccommodationComponent } from './components/accommodation/accommodation.component';
+import { AccommodationCommonPage } from './pages/accommodation-common.page/accommodation-common.page';
 
 const routes: Routes = [
   {
@@ -11,7 +11,7 @@ const routes: Routes = [
     children: [
       { 
         path: 'accs',
-        component: AccommodationComponent,
+        component: AccommodationCommonPage,
       },
       { 
         path: '',

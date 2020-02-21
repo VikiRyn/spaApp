@@ -1,0 +1,13 @@
+<span>Stays</span>
+<div class="list-wrapper" fxLayout fxLayoutGap="15px">
+  
+  <ng-container *ngFor="let accommodation of accommodations">
+    <mat-card>
+      <div fxLayout="row" fxLayoutGap="30px">
+        <img mat-card-image src="" alt="Photo">
+        <div>{{ accommodation.name }} - {{accommodation.price}} EUR</div>
+      </div>
+    </mat-card>
+</ng-container>
+
+</div>

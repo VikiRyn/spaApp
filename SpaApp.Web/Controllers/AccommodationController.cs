@@ -24,7 +24,16 @@ namespace SpaApp.Web.Controllers
                     NumberOfGuests = 3,
                     Price = 75,
                     Type = "Whole Apartment"
-                }
+                },
+                new AccommodationViewModel
+                {
+                    Id = new Guid("61a66928-4b16-4c7f-9434-ee9f3c3fa301"),
+                    Name = "2 room apartment with a great garden view",
+                    Location = "Oderbruchstraße",
+                    NumberOfGuests = 2,
+                    Price = 50,
+                    Type = "Apartment"
+                },
             };
         }
 

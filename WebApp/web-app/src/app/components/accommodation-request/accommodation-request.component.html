@@ -1,0 +1,47 @@
+<div class="form-container">
+
+<h3>Book unique places to stay and thinks to do</h3>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+  <div>
+    <mat-form-field>
+      <mat-label>Where</mat-label>
+      <input matInput placeholder="Everywhere" formControlName="location">
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field class="date-input">
+      <mat-label>Check-In</mat-label>
+      <input matInput [matDatepicker]="pickerCheckIn" formControlName="checkIn">
+      <mat-datepicker-toggle matSuffix [for]="pickerCheckIn"></mat-datepicker-toggle>
+      <mat-datepicker #pickerCheckIn></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field class="date-input">
+      <mat-label>Check-Out</mat-label>
+      <input matInput [matDatepicker]="pickerCheckOut" formControlName="checkOut">
+      <mat-datepicker-toggle matSuffix [for]="pickerCheckOut"></mat-datepicker-toggle>
+      <mat-datepicker #pickerCheckOut></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field>
+      <input type="text" placeholder="Guests" aria-label="Number" matInput formControlName="guests"
+        [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let option of options" [value]="option">
+          {{ option }}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <button mat-button type="submit">Search</button>
+  </div>
+</form>
+</div>
