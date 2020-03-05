@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaApp.DAL", "SpaApp.DAL\SpaApp.DAL.csproj", "{81CEFE55-305D-438F-B0CC-A46FFBE46A48}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaApp.Services", "SpaApp.Services\SpaApp.Services.csproj", "{FAB040E6-5ABC-4E5F-BB13-38EC538A3AF8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaApp.Web", "SpaApp.Web\SpaApp.Web.csproj", "{A306902F-EADB-4C82-A7A2-C1242F6991DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaApp.Domain", "SpaApp.Domain\SpaApp.Domain.csproj", "{E39F5419-E908-46D0-A943-4799DE140A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaApp.Domain", "SpaApp.Domain\SpaApp.Domain.csproj", "{E39F5419-E908-46D0-A943-4799DE140A29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApsApp.DAL", "ApsApp.DAL\ApsApp.DAL.csproj", "{519EA2AD-2C26-46BC-A3C2-6346202A7019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaApp.BL", "SpaApp.BL\SpaApp.BL.csproj", "{0ADB620E-D42F-49AC-8858-C89AD1CD6CFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81CEFE55-305D-438F-B0CC-A46FFBE46A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81CEFE55-305D-438F-B0CC-A46FFBE46A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81CEFE55-305D-438F-B0CC-A46FFBE46A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81CEFE55-305D-438F-B0CC-A46FFBE46A48}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FAB040E6-5ABC-4E5F-BB13-38EC538A3AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAB040E6-5ABC-4E5F-BB13-38EC538A3AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAB040E6-5ABC-4E5F-BB13-38EC538A3AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAB040E6-5ABC-4E5F-BB13-38EC538A3AF8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A306902F-EADB-4C82-A7A2-C1242F6991DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A306902F-EADB-4C82-A7A2-C1242F6991DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A306902F-EADB-4C82-A7A2-C1242F6991DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +25,14 @@ Global
 		{E39F5419-E908-46D0-A943-4799DE140A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E39F5419-E908-46D0-A943-4799DE140A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E39F5419-E908-46D0-A943-4799DE140A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519EA2AD-2C26-46BC-A3C2-6346202A7019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519EA2AD-2C26-46BC-A3C2-6346202A7019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519EA2AD-2C26-46BC-A3C2-6346202A7019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519EA2AD-2C26-46BC-A3C2-6346202A7019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADB620E-D42F-49AC-8858-C89AD1CD6CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADB620E-D42F-49AC-8858-C89AD1CD6CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADB620E-D42F-49AC-8858-C89AD1CD6CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADB620E-D42F-49AC-8858-C89AD1CD6CFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

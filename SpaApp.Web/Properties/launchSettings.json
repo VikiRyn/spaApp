@@ -1,7 +1,7 @@
 ﻿{
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:6819",
       "sslPort": 0
@@ -23,5 +23,8 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=appDB;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }

@@ -41,7 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IAccommodationService.cs" />
+    <Compile Include="EntitiyService.cs" />
+    <Compile Include="IEntitiyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpaApp.Domain\SpaApp.Domain.csproj">
+      <Project>{e39f5419-e908-46d0-a943-4799de140a29}</Project>
+      <Name>SpaApp.Domain</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
